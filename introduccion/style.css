@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz@10..48&display=swap');
+
+body{
+    background-color: silver;
+    font-family: 'Bricolage Grotesque', sans-serif;
+}
+
+h1{
+    color: white;
+    text-align: center;
+   
+}
