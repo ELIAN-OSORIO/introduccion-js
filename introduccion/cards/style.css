@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color:transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+  
+}
+main {
+  margin: 2%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+.card {
+  border-radius: 18px;
+  background-color: #7B68EE;
+
+  font-family: roboto;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0, 0.9);
+  text-align: center;
+  height: 500px;
+}
+.card-avatar {
+  width: 300px;
+  height: 250px;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  background-size: cover;
+}
+.card-info {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  color: white;
+}
+.card-name {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 5px;
+}
+
+.card-age {
+  padding: 5px;
+}
+.card-salary {
+  padding: 5px;
+}
+.card-address {
+  padding: 5px;
+}
+.card-zipcode {
+  padding: 5px;
+}
+.card-number {
+  padding: 5px;
+}
