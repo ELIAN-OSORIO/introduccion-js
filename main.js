@@ -1,7 +1,7 @@
 //import {personas} from './helper/personas';
-import Card from './components/Card';
-import Header from './components/header'
-import { apiData } from './helper/data';
+import Card from './components/Card.js';
+import Header from './components/header.js'
+import { apiData } from './helper/data.js';
 import './style.css'
 
 //const empresa = {
